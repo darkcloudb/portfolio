@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+/**********************Navbar******************/
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+/*************Menu Links**************/
+nav a.nav-link {
+  cursor: pointer;
+}
+
+nav ul li {
+  /* margin-right: 2px;
+  margin-left: 2px; */
+  text-transform: uppercase;
+}
