@@ -30,15 +30,16 @@ function Projects() {
   }
   return (
     <>
-      <h2>Projects</h2>
+      <h2 style={{ justifyContent: "left" }}>Projects</h2>
       <div className="project">
         <Card
           style={{
             width: "30rem",
             height: "25rem",
             marginBottom: "20px",
-            marginLeft: "200px",
-            marginReft: "200px",
+            // marginLeft: "200px",
+            // marginReft: "200px",
+            margin: "auto",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
@@ -64,7 +65,7 @@ function Projects() {
             width: "30rem",
             height: "25rem",
             marginBottom: "20px",
-            marginLeft: "30px",
+            margin: "auto",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
@@ -91,7 +92,7 @@ function Projects() {
             width: "30rem",
             height: "25rem",
             marginBottom: "20px",
-            marginLeft: "30px",
+            margin: "auto",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
@@ -123,7 +124,7 @@ function Projects() {
             width: "30rem",
             height: "25rem",
             marginBottom: "20px",
-            marginLeft: "30px",
+            margin: "auto",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
@@ -146,7 +147,7 @@ function Projects() {
             width: "30rem",
             height: "25rem",
             marginBottom: "20px",
-            marginLeft: "30px",
+            margin: "auto",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
