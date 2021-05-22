@@ -36,7 +36,6 @@ function Navbar() {
             <li className="nav-item">
               <a className="nav-link" href="#">
                 LinkedIn
-                {/* <img className="logo_link" src={linkedin} alt="LinkedIn" /> */}
               </a>
             </li>
             <li className="nav-item">
