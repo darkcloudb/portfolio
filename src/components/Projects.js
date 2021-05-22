@@ -1,5 +1,12 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faJsSquare,
+  faReact,
+  faPython,
+  faNodeJs,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Projects() {
   function secondChapter() {
@@ -30,7 +37,11 @@ function Projects() {
   }
   return (
     <>
-      <h2 style={{ justifyContent: "left" }}>Projects</h2>
+      <h2>
+        Projects <FontAwesomeIcon icon={faJsSquare} />{" "}
+        <FontAwesomeIcon icon={faReact} /> <FontAwesomeIcon icon={faPython} />{" "}
+        <FontAwesomeIcon icon={faNodeJs} />{" "}
+      </h2>
       <div className="project">
         <Card
           style={{
