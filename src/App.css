@@ -38,10 +38,10 @@
 }
 
 /* :root {
-}
+} */
 
-.body {
-
+/* .body {
+  background: url(jrpg_background.png) no-repeat;
 } */
 /**********************Navbar******************/
 .logo {
@@ -90,7 +90,7 @@ nav ul li {
 /**********************Header******************/
 .header-wrapper {
   position: relative;
-  /* background: url(unnamed.png) no-repeat; */
+  background: url(jrpg_background.png) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -129,6 +129,7 @@ nav ul li {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
+  background: url(jrpg_background.png);
 }
 
 .button {

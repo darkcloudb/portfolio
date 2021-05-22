@@ -1,7 +1,13 @@
 import React from "react";
 import logo from "../img/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faProjectDiagram,
+  faEnvelope,
+  faInfo,
+} from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   return (
@@ -25,22 +31,22 @@ function Navbar() {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                Home
+                <FontAwesomeIcon icon={faInfo} /> {" About Me"}
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Projects
+                <FontAwesomeIcon icon={faProjectDiagram} /> {" Projects"}
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                LinkedIn
+                <FontAwesomeIcon icon={faLinkedin} /> {" LinkedIn"}
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Contact Me
+                <FontAwesomeIcon icon={faEnvelope} /> {" Contact Me"}
               </a>
             </li>
           </ul>
