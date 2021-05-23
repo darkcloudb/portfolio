@@ -120,10 +120,6 @@ nav ul li {
   margin-left: 30px;
   cursor: pointer;
 }
-
-/* .icon-links > li > a:hover {
-  border-top: 3px solid grey;
-} */
 /**********************Project******************/
 .project {
   display: flex !important;
@@ -133,9 +129,38 @@ nav ul li {
 }
 
 .projectTitle {
-  color: #808080;
-  background-color: #f8f9fa;
+  position: relative;
+  background: url(jrpg_background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 83vh;
 }
 .button {
   cursor: pointer;
+}
+/**********************Contact******************/
+.stayInfo {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contactCSS {
+  position: relative;
+  background: url(jrpg_background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 83vh;
+}
+
+.stay {
+  margin: auto;
+  color: whitesmoke;
 }

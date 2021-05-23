@@ -43,11 +43,11 @@ function Projects() {
   }
   return (
     <div className="projectTitle">
-      <h3>
+      <h1>
         Projects : <FontAwesomeIcon icon={faJsSquare} />{" "}
         <FontAwesomeIcon icon={faReact} /> <FontAwesomeIcon icon={faPython} />{" "}
         {/* <FontAwesomeIcon icon={faNodeJs} />{" "} */}
-      </h3>
+      </h1>
       <div className="project">
         <Card
           style={{
