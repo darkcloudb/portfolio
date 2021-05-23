@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/portfolio">
+    <BrowserRouter basename="darkcloudb">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
