@@ -44,7 +44,7 @@ function Projects() {
   }
   return (
     <>
-      <h2>
+      <h2 className="projectTitle">
         Projects : <FontAwesomeIcon icon={faJsSquare} />{" "}
         <FontAwesomeIcon icon={faReact} /> <FontAwesomeIcon icon={faPython} />{" "}
         {/* <FontAwesomeIcon icon={faNodeJs} />{" "} */}
