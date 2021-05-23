@@ -125,7 +125,7 @@ nav ul li {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
-  background: url(jrpg_background.png);
+  background: url(jrpg_background.png) no-repeat;
 }
 
 .projectTitle {
@@ -133,7 +133,7 @@ nav ul li {
   background: url(jrpg_background.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 83vh;
+  /* height: 200vh; */
 }
 .button {
   cursor: pointer;
