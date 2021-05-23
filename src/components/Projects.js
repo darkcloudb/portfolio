@@ -6,7 +6,14 @@ import {
   faReact,
   faPython,
   faNodeJs,
+  faApple,
+  faWindows,
 } from "@fortawesome/free-brands-svg-icons";
+import kapstone from "../img/secondChapter.png";
+import kwitter from "../img/kwitter.png";
+import codepen from "../img/codepen.png";
+import bot from "../img/discordBot.png";
+import demo from "../img/Demo2.png";
 
 function Projects() {
   function secondChapter() {
@@ -38,15 +45,44 @@ function Projects() {
   return (
     <>
       <h2>
-        Projects <FontAwesomeIcon icon={faJsSquare} />{" "}
+        Projects : <FontAwesomeIcon icon={faJsSquare} />{" "}
         <FontAwesomeIcon icon={faReact} /> <FontAwesomeIcon icon={faPython} />{" "}
-        <FontAwesomeIcon icon={faNodeJs} />{" "}
+        {/* <FontAwesomeIcon icon={faNodeJs} />{" "} */}
       </h2>
       <div className="project">
         <Card
           style={{
-            width: "30rem",
-            height: "25rem",
+            width: "25rem",
+            height: "30rem",
+            marginBottom: "20px",
+            margin: "auto",
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "wrap",
+          }}
+        >
+          <Card.Img className="cardImg" variant="top" src={demo} />
+          <Card.Body>
+            <Card.Title>Demo Project</Card.Title>
+            <Card.Text>
+              Demo game co-created with JavaScript and RPG Maker MV.
+            </Card.Text>
+            <Button
+              style={{ marginRight: "8px" }}
+              variant="secondary"
+              onClick={DemoProjectMac}
+            >
+              Download <FontAwesomeIcon icon={faApple} /> Ver.
+            </Button>
+            <Button variant="secondary" onClick={DemoProjectPC}>
+              Download <FontAwesomeIcon icon={faWindows} /> Ver.
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card
+          style={{
+            width: "25rem",
+            height: "30rem",
             marginBottom: "20px",
             // marginLeft: "200px",
             // marginReft: "200px",
@@ -56,25 +92,24 @@ function Projects() {
             flexWrap: "wrap",
           }}
         >
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img className="cardImg" variant="top" src={kapstone} />
           <Card.Body>
             <Card.Title>Second Chapter</Card.Title>
             <Card.Text>
-              Quality Assurance, co-developed the backend architecture, set up
-              CRUD requests to backend restful API, presented and tested the
-              minimal viable product to stakeholders. Created using HTML, CSS,
-              JavaScript, React, Zustand, Bootstrap, and MongoDB.
+              A full stack website created with 3 others for a school project.
+              Created using HTML, CSS, JavaScript, React, Zustand, Bootstrap,
+              and MongoDB.
             </Card.Text>
             <Button variant="secondary" onClick={secondChapter}>
-              Go to Second Chapter
+              See Live
             </Button>
           </Card.Body>
         </Card>
 
         <Card
           style={{
-            width: "30rem",
-            height: "25rem",
+            width: "25rem",
+            height: "30rem",
             marginBottom: "20px",
             margin: "auto",
             display: "flex",
@@ -82,26 +117,23 @@ function Projects() {
             flexWrap: "wrap",
           }}
         >
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img className="cardImg" variant="top" src={kwitter} />
           <Card.Body>
             <Card.Title>CoachIn</Card.Title>
             <Card.Text>
-              Project Manager leading a team of 4 to meet minimal viable product
-              requirements, co-developed the frontend architecture, set up CRUD
-              requests to restful APIs, presented the minimal viable product to
-              stakeholders. Created using JavaScript, React, Zustand, and
-              Bootstrap.
+              A social media site with working message board and Google Login.
+              Created using JavaScript, React, Zustand, and Bootstrap.
             </Card.Text>
             <Button variant="secondary" onClick={CoachIn}>
-              Go to CoachIn
+              See Live
             </Button>
           </Card.Body>
         </Card>
 
         <Card
           style={{
-            width: "30rem",
-            height: "25rem",
+            width: "25rem",
+            height: "30rem",
             marginBottom: "20px",
             margin: "auto",
             display: "flex",
@@ -109,54 +141,23 @@ function Projects() {
             flexWrap: "wrap",
           }}
         >
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Demo Project</Card.Title>
-            <Card.Text>
-              4 day project. Co-created a game on the RPG Maker MV platform with
-              a focus on combat systems, characters, and enemy AI. Presented a
-              demo project to stakeholders. Created with JavaScript.
-            </Card.Text>
-            <Button
-              style={{ marginRight: "8px" }}
-              variant="secondary"
-              onClick={DemoProjectMac}
-            >
-              Download Mac Ver.
-            </Button>
-            <Button variant="secondary" onClick={DemoProjectPC}>
-              Download Win Ver.
-            </Button>
-          </Card.Body>
-        </Card>
-
-        <Card
-          style={{
-            width: "30rem",
-            height: "25rem",
-            marginBottom: "20px",
-            margin: "auto",
-            display: "flex",
-            flexDirection: "row",
-            flexWrap: "wrap",
-          }}
-        >
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img className="cardImg" variant="top" src={codepen} />
           <Card.Body>
             <Card.Title>What to eat?</Card.Title>
             <Card.Text>
-              A fun webpage with a button to determine what to eat.
+              A fun webpage with a button to determine what to eat. Made with
+              JavaScript on Codepen.
             </Card.Text>
             <Button variant="secondary" onClick={whatToEat}>
-              Go to site
+              See Live
             </Button>
           </Card.Body>
         </Card>
 
         <Card
           style={{
-            width: "30rem",
-            height: "25rem",
+            width: "25rem",
+            height: "30rem",
             marginBottom: "20px",
             margin: "auto",
             display: "flex",
@@ -164,12 +165,12 @@ function Projects() {
             flexWrap: "wrap",
           }}
         >
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img className="cardImg" variant="top" src={bot} />
           <Card.Body>
             <Card.Title>confused_astronaut</Card.Title>
             <Card.Text>
               Create a useful bot for discord to post daily schedules and other
-              important information upon command.
+              important information upon command. Made with Python.
             </Card.Text>
             <Button variant="secondary" onClick={discord_bot}>
               Bot's code

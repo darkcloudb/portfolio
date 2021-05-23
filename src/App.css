@@ -93,13 +93,13 @@ nav ul li {
   background: url(jrpg_background.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 83vh;
 }
 
 .main-info {
   display: flex;
   position: absolute;
-  top: 0;
+  top: 10;
   left: 0;
   right: 0;
   bottom: 0;
@@ -107,6 +107,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
+  /* color: gold; */
 }
 /**********************Footer******************/
 .footer {

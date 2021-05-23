@@ -10,6 +10,9 @@ import {
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
+  function linkedin() {
+    window.open("https://www.linkedin.com/in/billy-yip-0b9a6b89/");
+  }
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
@@ -40,7 +43,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#" onClick={linkedin}>
                 <FontAwesomeIcon icon={faLinkedin} /> {" LinkedIn"}
               </a>
             </li>
