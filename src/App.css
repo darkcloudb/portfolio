@@ -107,7 +107,6 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* color: gold; */
 }
 /**********************Footer******************/
 .footer {
@@ -133,6 +132,10 @@ nav ul li {
   background: url(jrpg_background.png);
 }
 
+.projectTitle {
+  color: #808080;
+  background-color: #f8f9fa;
+}
 .button {
   cursor: pointer;
 }

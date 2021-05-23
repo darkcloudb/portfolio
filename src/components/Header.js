@@ -1,11 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faJsSquare,
-  faReact,
-  faPython,
-  faNodeJs,
-} from "@fortawesome/free-brands-svg-icons";
 
 function Header() {
   return (
