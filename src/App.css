@@ -36,6 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* :root {
+} */
+
+/* .body {
+  background: url(jrpg_background.png) no-repeat;
+} */
 /**********************Navbar******************/
 .logo {
   width: 5rem;
@@ -79,4 +86,53 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 3px solid grey;
+}
+/**********************Header******************/
+.header-wrapper {
+  position: relative;
+  background: url(jrpg_background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 83vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* color: gold; */
+}
+/**********************Footer******************/
+.footer {
+  background-color: #f8f9fa;
+  font-size: xx-large;
+  padding-top: 10px;
+}
+
+.icon-links {
+  color: #808080;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+/* .icon-links > li > a:hover {
+  border-top: 3px solid grey;
+} */
+/**********************Project******************/
+.project {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  background: url(jrpg_background.png);
+}
+
+.button {
+  cursor: pointer;
 }
