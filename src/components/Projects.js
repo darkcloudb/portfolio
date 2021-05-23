@@ -5,7 +5,6 @@ import {
   faJsSquare,
   faReact,
   faPython,
-  faNodeJs,
   faApple,
   faWindows,
 } from "@fortawesome/free-brands-svg-icons";
@@ -43,18 +42,19 @@ function Projects() {
     window.open("https://github.com/darkcloudb/confused_astronaut");
   }
   return (
-    <>
-      <h2>
+    <div className="projectTitle">
+      <h1>
         Projects : <FontAwesomeIcon icon={faJsSquare} />{" "}
         <FontAwesomeIcon icon={faReact} /> <FontAwesomeIcon icon={faPython} />{" "}
         {/* <FontAwesomeIcon icon={faNodeJs} />{" "} */}
-      </h2>
+      </h1>
       <div className="project">
         <Card
           style={{
             width: "25rem",
             height: "30rem",
             marginBottom: "20px",
+            marginTop: "5px",
             margin: "auto",
             display: "flex",
             flexDirection: "row",
@@ -84,8 +84,7 @@ function Projects() {
             width: "25rem",
             height: "30rem",
             marginBottom: "20px",
-            // marginLeft: "200px",
-            // marginReft: "200px",
+            marginTop: "5px",
             margin: "auto",
             display: "flex",
             flexDirection: "row",
@@ -111,6 +110,7 @@ function Projects() {
             width: "25rem",
             height: "30rem",
             marginBottom: "20px",
+            marginTop: "5px",
             margin: "auto",
             display: "flex",
             flexDirection: "row",
@@ -135,6 +135,7 @@ function Projects() {
             width: "25rem",
             height: "30rem",
             marginBottom: "20px",
+            marginTop: "5px",
             margin: "auto",
             display: "flex",
             flexDirection: "row",
@@ -159,6 +160,7 @@ function Projects() {
             width: "25rem",
             height: "30rem",
             marginBottom: "20px",
+            marginTop: "5px",
             margin: "auto",
             display: "flex",
             flexDirection: "row",
@@ -178,7 +180,7 @@ function Projects() {
           </Card.Body>
         </Card>
       </div>
-    </>
+    </div>
   );
 }
 

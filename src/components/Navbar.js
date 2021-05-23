@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../img/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -34,12 +35,17 @@ function Navbar() {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                <FontAwesomeIcon icon={faInfo} /> {" About Me"}
+                <Link to="/" style={{ color: "#808080" }}>
+                  <FontAwesomeIcon icon={faInfo} /> {" About Me"}
+                </Link>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                <FontAwesomeIcon icon={faProjectDiagram} /> {" Projects"}
+                <Link to="/projects" style={{ color: "#808080" }}>
+                  {" "}
+                  <FontAwesomeIcon icon={faProjectDiagram} /> {" Projects"}{" "}
+                </Link>
               </a>
             </li>
             <li className="nav-item">
@@ -49,7 +55,9 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                <FontAwesomeIcon icon={faEnvelope} /> {" Contact Me"}
+                <Link to="/contact" style={{ color: "#808080" }}>
+                  <FontAwesomeIcon icon={faEnvelope} /> {" Contact Me"}
+                </Link>
               </a>
             </li>
           </ul>
