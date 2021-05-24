@@ -107,6 +107,7 @@ nav ul li {
 
 .footer > :hover {
   font-size: xx-large;
+  color: black;
 }
 
 .icon-links {
@@ -127,7 +128,6 @@ nav ul li {
   background: url(jrpg_background.png) no-repeat;
   background-size: cover;
   background-position: center;
-  /* height: 200vh; */
 }
 .button {
   cursor: pointer;
