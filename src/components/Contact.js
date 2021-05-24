@@ -12,13 +12,18 @@ function Contact() {
   }
   return (
     <div className="contactCSS">
-      <h1>Let's Connect and Stay in Touch</h1>
+      {/* <h1>Let's Connect and Stay in Touch</h1> */}
 
       <h2 className="stayInfo">
         <h2 className="stay">
           <FontAwesomeIcon
             icon={faLine}
-            style={{ fontSize: "xx-large", color: "#07B53B" }}
+            style={{
+              fontSize: "xx-large",
+              color: "#07B53B",
+              backgroundColor: "white",
+              borderRadius: "200px",
+            }}
           />
           <br></br>
           darkcloudb
@@ -26,7 +31,11 @@ function Contact() {
           <img
             src={LineQR}
             alt="QR Code"
-            style={{ width: "80px", height: "80px" }}
+            style={{
+              width: "80px",
+              height: "80px",
+              marginTop: "5px",
+            }}
           ></img>
         </h2>
         <h2 className="stay">
