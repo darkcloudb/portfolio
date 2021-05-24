@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-function NavBar() {
+function Test() {
   function linkedin() {
     window.open("https://www.linkedin.com/in/billy-yip-0b9a6b89/");
   }
@@ -62,4 +62,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Test;

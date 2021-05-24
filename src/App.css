@@ -59,32 +59,22 @@ nav a.nav-link {
 }
 
 nav ul li {
-  /* margin-right: 2px;
-  margin-left: 2px; */
   text-transform: uppercase;
 }
 
 .navbar-nav > li > a {
   color: grey !important;
-  /* border-top: 3px solid darkgray; */
 }
 
 .navbar-nav {
   margin-left: auto;
 }
 
-/* .navbar-brand {
-  max-width: 17.25rem;
-  padding: 0 !important;
-  height: 6rem !important;
-} */
-
-/* .navbar-nav > li > a.active,
-.navbar-nav > li > a.active:focus {
-  border-top: 3px solid grey;
-} */
-
 .navbar-nav > li > a:hover {
+  border-top: 3px solid grey;
+}
+
+.ml-auto > a:hover {
   border-top: 3px solid grey;
 }
 /**********************Header******************/
@@ -111,8 +101,12 @@ nav ul li {
 /**********************Footer******************/
 .footer {
   background-color: #f8f9fa;
-  font-size: xx-large;
+  font-size: x-large;
   padding-top: 10px;
+}
+
+.footer > :hover {
+  font-size: xx-large;
 }
 
 .icon-links {
