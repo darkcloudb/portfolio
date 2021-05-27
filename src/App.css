@@ -76,7 +76,8 @@ nav ul li {
 
 .ml-auto > a:hover {
   border-top: 3px solid #808080;
-  font-size: large;
+  transform: scale(1.1);
+  transition: transform 500ms ease;
 }
 /**********************Header******************/
 .header-wrapper {
@@ -102,13 +103,14 @@ nav ul li {
 /**********************Footer******************/
 .footer {
   background-color: #f8f9fa;
-  font-size: x-large;
+  font-size: xx-large;
   padding-top: 10px;
 }
 
 .footer > :hover {
-  font-size: xx-large;
+  transform: scale(1.5);
   color: black;
+  transition: transform 500ms ease;
 }
 
 .icon-links {
@@ -122,6 +124,8 @@ nav ul li {
   flex-direction: row !important;
   flex-wrap: wrap !important;
   background: url(jrpg_background.png) no-repeat;
+
+  transition: transform 500ms ease;
 }
 
 .projectTitle {
@@ -132,6 +136,13 @@ nav ul li {
 }
 .button {
   cursor: pointer;
+}
+
+.project > :hover {
+  transform: scale(1.05);
+  border: 3px solid black;
+  border-radius: 1%;
+  transition: transform 500ms ease;
 }
 /**********************Contact******************/
 .stayInfo {

@@ -52,12 +52,14 @@ function Projects() {
       </h1>
       <div className="project">
         <Card
+          className="card-test"
           style={{
             width: "25rem",
             height: "30rem",
             marginBottom: "20px",
             marginTop: "5px",
             margin: "auto",
+            justifyContent: "space-evenly",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
@@ -83,12 +85,14 @@ function Projects() {
           </Card.Body>
         </Card>
         <Card
+          className="card-test"
           style={{
             width: "25rem",
             height: "30rem",
             marginBottom: "20px",
             marginTop: "5px",
             margin: "auto",
+            justifyContent: "space-evenly",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
@@ -110,12 +114,14 @@ function Projects() {
         </Card>
 
         <Card
+          className="card-test"
           style={{
             width: "25rem",
             height: "30rem",
             marginBottom: "20px",
             marginTop: "5px",
             margin: "auto",
+            justifyContent: "space-evenly",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
@@ -136,12 +142,14 @@ function Projects() {
         </Card>
 
         <Card
+          className="card-test"
           style={{
             width: "25rem",
             height: "30rem",
             marginBottom: "20px",
             marginTop: "5px",
             margin: "auto",
+            justifyContent: "space-evenly",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
@@ -162,12 +170,14 @@ function Projects() {
         </Card>
 
         <Card
+          className="card-test"
           style={{
             width: "25rem",
             height: "30rem",
             marginBottom: "20px",
             marginTop: "5px",
             margin: "auto",
+            justifyContent: "space-evenly",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",

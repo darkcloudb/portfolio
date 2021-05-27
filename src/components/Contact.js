@@ -19,10 +19,10 @@ function Contact() {
           <FontAwesomeIcon
             icon={faLine}
             style={{
-              fontSize: "xx-large",
+              fontSize: "150%",
               color: "#07B53B",
               backgroundColor: "white",
-              borderRadius: "200px",
+              borderRadius: "100rpx",
             }}
           />
           <br></br>
@@ -32,8 +32,8 @@ function Contact() {
             src={LineQR}
             alt="QR Code"
             style={{
-              width: "80px",
-              height: "80px",
+              width: "90px",
+              height: "90px",
               marginTop: "5px",
             }}
           ></img>
@@ -41,7 +41,7 @@ function Contact() {
         <h2 className="stay">
           <FontAwesomeIcon
             icon={faLinkedin}
-            style={{ fontSize: "xx-large", color: "#0A66C2" }}
+            style={{ fontSize: "150%", color: "#0A66C2" }}
           />
           <br></br>
           LinkedIn
@@ -53,7 +53,7 @@ function Contact() {
         <h2 className="stay">
           <FontAwesomeIcon
             icon={faEnvelope}
-            style={{ fontSize: "xx-large", color: "whitesmoke" }}
+            style={{ fontSize: "140%", color: "whitesmoke" }}
           />
           <br></br>
           Email
