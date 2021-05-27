@@ -54,7 +54,7 @@
   height: 40px;
 }
 /*************Menu Links**************/
-nav a.nav-link {
+/* nav a.nav-link {
   cursor: pointer;
 }
 
@@ -72,7 +72,7 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 3px solid grey;
-}
+} */
 
 .ml-auto > a:hover {
   border-top: 3px solid grey;

@@ -45,7 +45,8 @@ function Projects() {
     <div className="projectTitle">
       <h1>
         Projects : <FontAwesomeIcon icon={faJsSquare} />{" "}
-        <FontAwesomeIcon icon={faReact} /> <FontAwesomeIcon icon={faPython} />{" "}
+        <FontAwesomeIcon icon={faReact} className="react-spin" />{" "}
+        <FontAwesomeIcon icon={faPython} />{" "}
         {/* <FontAwesomeIcon icon={faNodeJs} />{" "} */}
       </h1>
       <div className="project">
