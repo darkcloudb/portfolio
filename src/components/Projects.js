@@ -52,7 +52,6 @@ function Projects() {
       </h1>
       <div className="project">
         <Card
-          className="card-test"
           style={{
             width: "25rem",
             height: "30rem",
@@ -85,7 +84,6 @@ function Projects() {
           </Card.Body>
         </Card>
         <Card
-          className="card-test"
           style={{
             width: "25rem",
             height: "30rem",
@@ -114,7 +112,6 @@ function Projects() {
         </Card>
 
         <Card
-          className="card-test"
           style={{
             width: "25rem",
             height: "30rem",
@@ -142,7 +139,6 @@ function Projects() {
         </Card>
 
         <Card
-          className="card-test"
           style={{
             width: "25rem",
             height: "30rem",
@@ -170,7 +166,6 @@ function Projects() {
         </Card>
 
         <Card
-          className="card-test"
           style={{
             width: "25rem",
             height: "30rem",
