@@ -75,7 +75,8 @@ nav ul li {
 } */
 
 .ml-auto > a:hover {
-  border-top: 3px solid grey;
+  border-top: 3px solid #808080;
+  font-size: large;
 }
 /**********************Header******************/
 .header-wrapper {

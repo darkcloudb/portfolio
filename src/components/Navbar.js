@@ -22,7 +22,7 @@ function NavBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <a className="nav-link active" aria-current="page" href="/">
+          <a className="nav-link active" aria-current="page">
             <Link
               to="/"
               style={{ color: "#808080", textTransform: "uppercase" }}
@@ -30,7 +30,7 @@ function NavBar() {
               <FontAwesomeIcon icon={faInfo} /> {" About Me"}
             </Link>
           </a>
-          <a className="nav-link" href="/projects">
+          <a className="nav-link">
             <Link
               to="/projects"
               style={{ color: "#808080", textTransform: "uppercase" }}
@@ -39,7 +39,7 @@ function NavBar() {
               <FontAwesomeIcon icon={faProjectDiagram} /> {" Projects"}{" "}
             </Link>
           </a>
-          <a className="nav-link" href={linkedin}>
+          <a className="nav-link">
             <Link
               onClick={linkedin}
               style={{ color: "#808080", textTransform: "uppercase" }}
@@ -48,7 +48,7 @@ function NavBar() {
               <FontAwesomeIcon icon={faLinkedin} /> {" LinkedIn"}
             </Link>
           </a>
-          <a className="nav-link" href="/contact">
+          <a className="nav-link">
             <Link
               to="/contact"
               style={{ color: "#808080", textTransform: "uppercase" }}
