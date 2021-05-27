@@ -7,6 +7,7 @@ import {
   faPython,
   faApple,
   faWindows,
+  faMdb,
 } from "@fortawesome/free-brands-svg-icons";
 import kapstone from "../img/secondChapter.png";
 import kwitter from "../img/kwitter.png";
@@ -44,9 +45,9 @@ function Projects() {
   return (
     <div className="projectTitle">
       <h1>
+        <FontAwesomeIcon icon={faPython} /> <FontAwesomeIcon icon={faMdb} />{" "}
         Projects : <FontAwesomeIcon icon={faJsSquare} />{" "}
         <FontAwesomeIcon icon={faReact} className="react-spin" />{" "}
-        <FontAwesomeIcon icon={faPython} />{" "}
         {/* <FontAwesomeIcon icon={faNodeJs} />{" "} */}
       </h1>
       <div className="project">
@@ -60,6 +61,7 @@ function Projects() {
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
+            backgroundColor: "#f8f9fa",
           }}
         >
           <Card.Img className="cardImg" variant="top" src={demo} />
@@ -90,6 +92,7 @@ function Projects() {
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
+            backgroundColor: "#f8f9fa",
           }}
         >
           <Card.Img className="cardImg" variant="top" src={kapstone} />
@@ -116,6 +119,7 @@ function Projects() {
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
+            backgroundColor: "#f8f9fa",
           }}
         >
           <Card.Img className="cardImg" variant="top" src={kwitter} />
@@ -141,6 +145,7 @@ function Projects() {
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
+            backgroundColor: "#f8f9fa",
           }}
         >
           <Card.Img className="cardImg" variant="top" src={codepen} />
@@ -166,6 +171,7 @@ function Projects() {
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
+            backgroundColor: "#f8f9fa",
           }}
         >
           <Card.Img className="cardImg" variant="top" src={bot} />
@@ -176,7 +182,7 @@ function Projects() {
               important information upon command. Made with Python.
             </Card.Text>
             <Button variant="secondary" onClick={discord_bot}>
-              Bot's code
+              Learn More
             </Button>
           </Card.Body>
         </Card>
