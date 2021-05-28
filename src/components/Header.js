@@ -37,7 +37,7 @@ function Header() {
           transition={effect}
         >
           Hi, my name is Billy Yip and I am currently located in the San
-          Francisco Bay Area. My career goal is to be an Software Engineer, Web
+          Francisco Bay Area. My career goal is to be a Software Engineer, Web
           Developer, or Game Designer / Programmer to further develop my skills
           while playing a role in the innovation of programs and/or video games.
         </motion.h3>
