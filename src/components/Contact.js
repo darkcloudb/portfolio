@@ -10,11 +10,9 @@ import { motion } from "framer-motion";
 const pageTransition = {
   in: {
     opacity: 1,
-    y: 0,
   },
   out: {
     opacity: 0,
-    y: "-100%",
   },
 };
 
@@ -23,16 +21,16 @@ function Contact() {
     window.open("https://www.linkedin.com/in/billy-yip-0b9a6b89/");
   }
   return (
-    <motion.div
-      className="contactCSS"
-      initial="out"
-      animate="in"
-      exit="out"
-      variants={pageTransition}
-    >
+    <div className="contactCSS">
       {/* <h1>Let's Connect and Stay in Touch</h1> */}
 
-      <h2 className="stayInfo">
+      <motion.h2
+        className="stayInfo"
+        initial="out"
+        animate="in"
+        exit="out"
+        variants={pageTransition}
+      >
         <h2 className="stay">
           <FontAwesomeIcon
             icon={faLine}
@@ -40,7 +38,7 @@ function Contact() {
               fontSize: "150%",
               color: "#07B53B",
               backgroundColor: "white",
-              borderRadius: "100rpx",
+              borderRadius: "100%",
             }}
           />
           <br></br>
@@ -78,8 +76,8 @@ function Contact() {
           <br></br>
           birii.yip@gmail.com
         </h2>
-      </h2>
-    </motion.div>
+      </motion.h2>
+    </div>
   );
 }
 

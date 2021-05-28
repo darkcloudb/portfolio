@@ -27,6 +27,21 @@ const pageTransition = {
   },
 };
 
+const contentAppear = {
+  in: {
+    opacity: 1,
+  },
+  out: {
+    opacity: 0,
+  },
+};
+
+const effect = {
+  type: "tween",
+  ease: "anticipate",
+  duration: 2,
+};
+
 function Projects() {
   function secondChapter() {
     window.open("https://efgon.github.io/kapstone-frontend-book-resale/");
@@ -55,20 +70,21 @@ function Projects() {
     window.open("https://github.com/darkcloudb/confused_astronaut");
   }
   return (
-    <motion.div
-      className="projectTitle"
-      initial="out"
-      animate="in"
-      exit="out"
-      variants={pageTransition}
-    >
-      <h1>
+    <div className="projectTitle">
+      <motion.h1 initial="out" animate="in" exit="out" variants={contentAppear}>
         <FontAwesomeIcon icon={faPython} /> <FontAwesomeIcon icon={faMdb} />{" "}
         Projects : <FontAwesomeIcon icon={faJsSquare} />{" "}
         <FontAwesomeIcon icon={faReact} className="react-spin" />{" "}
         {/* <FontAwesomeIcon icon={faNodeJs} />{" "} */}
-      </h1>
-      <div className="project">
+      </motion.h1>
+      <motion.div
+        className="project"
+        initial="out"
+        animate="in"
+        exit="out"
+        variants={pageTransition}
+        transition={effect}
+      >
         <Card
           style={{
             width: "25rem",
@@ -209,8 +225,8 @@ function Projects() {
             </Button>
           </Card.Body>
         </Card>
-      </div>
-    </motion.div>
+      </motion.div>
+    </div>
   );
 }
 
