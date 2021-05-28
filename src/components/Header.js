@@ -10,6 +10,12 @@ const contentAppear = {
   },
 };
 
+const effect = {
+  type: "tween",
+  ease: "anticipate",
+  duration: 1.5,
+};
+
 function Header() {
   return (
     <motion.div className="header-wrapper">
@@ -19,6 +25,7 @@ function Header() {
           animate="in"
           exit="out"
           variants={contentAppear}
+          transition={effect}
         >
           About Me{" "}
         </motion.h1>
@@ -27,6 +34,7 @@ function Header() {
           animate="in"
           exit="out"
           variants={contentAppear}
+          transition={effect}
         >
           Hi, my name is Billy Yip and I am currently located in the San
           Francisco Bay Area. My career goal is to be an Software Engineer, Web

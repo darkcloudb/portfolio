@@ -16,6 +16,12 @@ const pageTransition = {
   },
 };
 
+const effect = {
+  type: "tween",
+  ease: "anticipate",
+  duration: 1.5,
+};
+
 function Contact() {
   function linkedin() {
     window.open("https://www.linkedin.com/in/billy-yip-0b9a6b89/");
@@ -30,6 +36,7 @@ function Contact() {
         animate="in"
         exit="out"
         variants={pageTransition}
+        transition={effect}
       >
         <h2 className="stay">
           <FontAwesomeIcon

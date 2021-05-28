@@ -71,7 +71,13 @@ function Projects() {
   }
   return (
     <div className="projectTitle">
-      <motion.h1 initial="out" animate="in" exit="out" variants={contentAppear}>
+      <motion.h1
+        initial="out"
+        animate="in"
+        exit="out"
+        variants={contentAppear}
+        transition={effect}
+      >
         <FontAwesomeIcon icon={faPython} /> <FontAwesomeIcon icon={faMdb} />{" "}
         Projects : <FontAwesomeIcon icon={faJsSquare} />{" "}
         <FontAwesomeIcon icon={faReact} className="react-spin" />{" "}
