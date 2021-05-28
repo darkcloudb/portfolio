@@ -1,8 +1,26 @@
 import React from "react";
+import { motion } from "framer-motion";
+
+const pageTransition = {
+  in: {
+    opacity: 1,
+    y: 0,
+  },
+  out: {
+    opacity: 0,
+    y: "-100%",
+  },
+};
 
 function Header() {
   return (
-    <div className="header-wrapper">
+    <motion.div
+      className="header-wrapper"
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={pageTransition}
+    >
       <div className="main-info">
         <h1>About Me </h1>
         <h3>
@@ -12,7 +30,7 @@ function Header() {
           while playing a role in the innovation of programs and/or video games.
         </h3>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

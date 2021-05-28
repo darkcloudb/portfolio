@@ -5,13 +5,31 @@ import { faLine } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import LineQR from "../img/LINE_QR.jpeg";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
+
+const pageTransition = {
+  in: {
+    opacity: 1,
+    y: 0,
+  },
+  out: {
+    opacity: 0,
+    y: "-100%",
+  },
+};
 
 function Contact() {
   function linkedin() {
     window.open("https://www.linkedin.com/in/billy-yip-0b9a6b89/");
   }
   return (
-    <div className="contactCSS">
+    <motion.div
+      className="contactCSS"
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={pageTransition}
+    >
       {/* <h1>Let's Connect and Stay in Touch</h1> */}
 
       <h2 className="stayInfo">
@@ -61,7 +79,7 @@ function Contact() {
           birii.yip@gmail.com
         </h2>
       </h2>
-    </div>
+    </motion.div>
   );
 }
 

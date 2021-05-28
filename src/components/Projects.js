@@ -14,6 +14,18 @@ import kwitter from "../img/kwitter.png";
 import codepen from "../img/codepen.png";
 import bot from "../img/discordBot.png";
 import demo from "../img/Demo2.png";
+import { motion } from "framer-motion";
+
+const pageTransition = {
+  in: {
+    opacity: 1,
+    y: 0,
+  },
+  out: {
+    opacity: 0,
+    y: "-100%",
+  },
+};
 
 function Projects() {
   function secondChapter() {
@@ -43,7 +55,13 @@ function Projects() {
     window.open("https://github.com/darkcloudb/confused_astronaut");
   }
   return (
-    <div className="projectTitle">
+    <motion.div
+      className="projectTitle"
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={pageTransition}
+    >
       <h1>
         <FontAwesomeIcon icon={faPython} /> <FontAwesomeIcon icon={faMdb} />{" "}
         Projects : <FontAwesomeIcon icon={faJsSquare} />{" "}
@@ -192,7 +210,7 @@ function Projects() {
           </Card.Body>
         </Card>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
