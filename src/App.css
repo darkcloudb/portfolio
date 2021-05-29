@@ -39,11 +39,16 @@
 
 /**********************Navbar******************/
 .logo {
-  width: 5rem;
-  height: 5rem;
-  transform: scale(1.05);
+  width: 3.5rem;
+  height: 3.5rem;
+  transform: scale(1.5);
+  margin-left: 30px;
 }
 /*************Menu Links**************/
+
+.ml-auto {
+  margin: auto;
+}
 
 .ml-auto > a:hover {
   border-top: 3px solid #808080;
