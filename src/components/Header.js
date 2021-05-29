@@ -1,4 +1,6 @@
 import React from "react";
+import { Col, Image } from "react-bootstrap";
+import Me from "../img/author.jpeg";
 import { motion } from "framer-motion";
 
 const contentAppear = {
@@ -16,6 +18,17 @@ const effect = {
   duration: 1.5,
 };
 
+const pageTransition = {
+  in: {
+    opacity: 1,
+    x: 0,
+  },
+  out: {
+    opacity: 0,
+    x: "-100%",
+  },
+};
+
 function Header() {
   return (
     <motion.div className="header-wrapper">
@@ -24,12 +37,13 @@ function Header() {
           initial="out"
           animate="in"
           exit="out"
-          variants={contentAppear}
+          variants={pageTransition}
           transition={effect}
         >
-          About Me{" "}
+          <img src={Me} className="imgSize"></img>
         </motion.h1>
         <motion.h3
+          className="about-text"
           initial="out"
           animate="in"
           exit="out"

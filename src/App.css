@@ -67,14 +67,25 @@
 .main-info {
   display: flex;
   position: absolute;
-  top: 10;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.imgSize {
+  max-width: 350px;
+  max-height: 280px;
+  border-radius: 100%;
+}
+
+.about-text {
+  max-width: 900px;
+  color: black;
 }
 /**********************Footer******************/
 .footer {
