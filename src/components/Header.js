@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Image } from "react-bootstrap";
-import Me from "../img/author.jpeg";
+import Me from "../img/author.png";
 import { motion } from "framer-motion";
 
 const contentAppear = {
@@ -16,6 +16,12 @@ const effect = {
   type: "tween",
   ease: "anticipate",
   duration: 1.5,
+};
+
+const photoEffect = {
+  type: "tween",
+  ease: "anticipate",
+  duration: 1.8,
 };
 
 const pageTransition = {
@@ -38,7 +44,7 @@ function Header() {
           animate="in"
           exit="out"
           variants={pageTransition}
-          transition={effect}
+          transition={photoEffect}
         >
           <img src={Me} className="imgSize"></img>
         </motion.h1>

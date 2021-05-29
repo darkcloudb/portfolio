@@ -78,9 +78,10 @@
 }
 
 .imgSize {
-  max-width: 350px;
-  max-height: 280px;
+  max-width: 250px;
+  max-height: 250px;
   border-radius: 100%;
+  margin-right: 25px;
 }
 
 .about-text {
