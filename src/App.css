@@ -37,43 +37,13 @@
   }
 }
 
-/* :root {
-} */
-
-/* .body {
-  background: url(jrpg_background.png) no-repeat;
-} */
 /**********************Navbar******************/
 .logo {
   width: 5rem;
   height: 5rem;
   transform: scale(1.05);
 }
-
-.logo_link {
-  width: 40px;
-  height: 40px;
-}
 /*************Menu Links**************/
-/* nav a.nav-link {
-  cursor: pointer;
-}
-
-nav ul li {
-  text-transform: uppercase;
-}
-
-.navbar-nav > li > a {
-  color: grey !important;
-}
-
-.navbar-nav {
-  margin-left: auto;
-}
-
-.navbar-nav > li > a:hover {
-  border-top: 3px solid grey;
-} */
 
 .ml-auto > a:hover {
   border-top: 3px solid #808080;
