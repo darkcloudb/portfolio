@@ -1,5 +1,4 @@
 import React from "react";
-import { Col, Image } from "react-bootstrap";
 import Me from "../img/author.png";
 import { motion } from "framer-motion";
 

@@ -66,10 +66,8 @@ function Projects() {
               style={{
                 width: "25rem",
                 height: "30rem",
-                marginBottom: "20px",
-                marginTop: "5px",
                 margin: "auto",
-                justifyContent: "space-evenly",
+                alignContent: "space-between",
                 display: "flex",
                 flexDirection: "row",
                 flexWrap: "wrap",
