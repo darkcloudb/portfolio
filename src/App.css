@@ -111,9 +111,7 @@
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
-  background: url(jrpg_background.png) no-repeat;
-
-  /* transition: transform 500ms ease; */
+  transition: transform 500ms ease;
 }
 
 .projectTitle {
