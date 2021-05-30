@@ -2,6 +2,7 @@ import kapstone from "../img/secondChapter.png";
 import kwitter from "../img/kwitter.png";
 import codepen from "../img/codepen.png";
 import bot from "../img/discordBot.png";
+import hanoi from "../img/tower.png";
 
 function secondChapter() {
   window.open("https://efgon.github.io/kapstone-frontend-book-resale/");
@@ -16,6 +17,12 @@ function whatToEat() {
 
 function discord_bot() {
   window.open("https://github.com/darkcloudb/confused_astronaut");
+}
+
+function towerOfHanoi() {
+  window.open(
+    "https://kenzieacademy-students.github.io/se-q1-tower-of-hanoi-darkcloudb/"
+  );
 }
 
 export const projectArray = [
@@ -46,5 +53,12 @@ export const projectArray = [
     text: "Create a useful bot for discord to post daily schedules and other important information upon command. Made with Python.",
     button: "Learn More",
     click: discord_bot,
+  },
+  {
+    image: hanoi,
+    title: "Tower of Hanoi",
+    text: "Classic Tower of Hanoi game created with JavaScript, HTML5, and CSS. Co-created with Lindsey Fisher.",
+    button: "See Live",
+    click: towerOfHanoi,
   },
 ];
