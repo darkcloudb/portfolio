@@ -170,3 +170,17 @@
   background-size: cover;
   background-position: center;
 }
+/**********************Qualifications******************/
+.cert {
+  margin-top: 4px;
+  width: 800px;
+  height: 500px;
+}
+
+.qualification {
+  position: relative;
+  background: url(jrpg_background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 83vh;
+}

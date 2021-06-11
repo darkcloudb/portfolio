@@ -7,6 +7,7 @@ import {
   faProjectDiagram,
   faEnvelope,
   faInfo,
+  faFile,
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -61,7 +62,7 @@ function NavBar() {
               to="/resume"
               style={{ color: "#808080", textTransform: "uppercase" }}
             >
-              <FontAwesomeIcon icon={faEnvelope} /> {" Resume"}
+              <FontAwesomeIcon icon={faFile} /> {" Resume"}
             </Link>
           </a>
         </Nav>

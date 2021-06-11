@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faCodepen } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faGithubAlt,
+  faLinkedin,
+  faCodepen,
+} from "@fortawesome/free-brands-svg-icons";
+import { faCertificate } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   function gitHub() {
@@ -24,6 +28,9 @@ function Footer() {
   return (
     <>
       <div className="footer">
+        <Link to="/awards" style={{ color: "#808080" }} className="footer">
+          <FontAwesomeIcon icon={faCertificate} className="icon-links" />
+        </Link>
         <FontAwesomeIcon
           className="icon-links"
           icon={faGithub}

@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Qualifications from "./components/Qualification";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
             <Route path="/resume" component={Resume} />
+            <Route path="/awards" component={Qualifications} />
           </Switch>
         </AnimatePresence>
         <Footer />
