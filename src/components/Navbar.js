@@ -56,6 +56,14 @@ function NavBar() {
               <FontAwesomeIcon icon={faEnvelope} /> {" Contact Me"}
             </Link>
           </a>
+          <a className="nav-link">
+            <Link
+              to="/resume"
+              style={{ color: "#808080", textTransform: "uppercase" }}
+            >
+              <FontAwesomeIcon icon={faEnvelope} /> {" Resume"}
+            </Link>
+          </a>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
