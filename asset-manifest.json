@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2bb369f8.chunk.css",
-    "main.js": "/portfolio/static/js/main.9041d1ee.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9041d1ee.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.90a58437.chunk.css",
+    "main.js": "/portfolio/static/js/main.6eb3ca53.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6eb3ca53.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.220b9662.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.220b9662.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.b4a32ed9.chunk.js": "/portfolio/static/js/2.b4a32ed9.chunk.js",
-    "static/js/2.b4a32ed9.chunk.js.map": "/portfolio/static/js/2.b4a32ed9.chunk.js.map",
+    "static/js/2.c54fd8a9.chunk.js": "/portfolio/static/js/2.c54fd8a9.chunk.js",
+    "static/js/2.c54fd8a9.chunk.js.map": "/portfolio/static/js/2.c54fd8a9.chunk.js.map",
     "static/js/3.ca803646.chunk.js": "/portfolio/static/js/3.ca803646.chunk.js",
     "static/js/3.ca803646.chunk.js.map": "/portfolio/static/js/3.ca803646.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.2bb369f8.chunk.css.map": "/portfolio/static/css/main.2bb369f8.chunk.css.map",
-    "static/js/2.b4a32ed9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b4a32ed9.chunk.js.LICENSE.txt",
+    "static/css/main.90a58437.chunk.css.map": "/portfolio/static/css/main.90a58437.chunk.css.map",
+    "static/js/2.c54fd8a9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c54fd8a9.chunk.js.LICENSE.txt",
+    "static/media/Certification_Frontend.291b4411.jpg": "/portfolio/static/media/Certification_Frontend.291b4411.jpg",
     "static/media/Demo2.f8773082.png": "/portfolio/static/media/Demo2.f8773082.png",
     "static/media/LINE_QR.c60269e5.jpeg": "/portfolio/static/media/LINE_QR.c60269e5.jpeg",
     "static/media/Resume.8702785d.jpg": "/portfolio/static/media/Resume.8702785d.jpg",
@@ -27,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.220b9662.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.b4a32ed9.chunk.js",
-    "static/css/main.2bb369f8.chunk.css",
-    "static/js/main.9041d1ee.chunk.js"
+    "static/js/2.c54fd8a9.chunk.js",
+    "static/css/main.90a58437.chunk.css",
+    "static/js/main.6eb3ca53.chunk.js"
   ]
 }
