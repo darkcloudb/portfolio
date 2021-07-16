@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.90a58437.chunk.css",
-    "main.js": "/portfolio/static/js/main.6eb3ca53.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6eb3ca53.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b3f8f517.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b3f8f517.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.220b9662.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.220b9662.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/Certification_Frontend.291b4411.jpg": "/portfolio/static/media/Certification_Frontend.291b4411.jpg",
     "static/media/Demo2.f8773082.png": "/portfolio/static/media/Demo2.f8773082.png",
     "static/media/LINE_QR.c60269e5.jpeg": "/portfolio/static/media/LINE_QR.c60269e5.jpeg",
-    "static/media/Resume.8702785d.jpg": "/portfolio/static/media/Resume.8702785d.jpg",
+    "static/media/Resume_v1.2.744cb7cd.jpg": "/portfolio/static/media/Resume_v1.2.744cb7cd.jpg",
     "static/media/author.92d54976.png": "/portfolio/static/media/author.92d54976.png",
     "static/media/codepen.3d5e4d35.png": "/portfolio/static/media/codepen.3d5e4d35.png",
     "static/media/discordBot.75ce1dcc.png": "/portfolio/static/media/discordBot.75ce1dcc.png",
@@ -30,6 +30,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.c54fd8a9.chunk.js",
     "static/css/main.90a58437.chunk.css",
-    "static/js/main.6eb3ca53.chunk.js"
+    "static/js/main.b3f8f517.chunk.js"
   ]
 }
