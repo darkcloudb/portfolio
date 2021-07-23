@@ -19,10 +19,10 @@ function App() {
         <AnimatePresence exitBeforeEnter>
           <Switch>
             <Route exact path="/" component={Header} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/resume" component={Resume} />
-            <Route path="/awards" component={Qualifications} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/awards" component={Qualifications} />
             <Route component={NotFound} />
           </Switch>
         </AnimatePresence>

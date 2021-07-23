@@ -21,13 +21,22 @@ const effect = {
 function NotFound() {
   return (
     <motion.div
-      className="header-wrapper"
+      className="error"
       initial="out"
       animate="in"
       exit="out"
       variants={contentAppear}
       transition={effect}
     >
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <h1>404</h1>
       <h5>
         Opps looks like an error!
