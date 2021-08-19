@@ -56,10 +56,10 @@ function Header() {
           transition={effect}
         >
           Hi, my name is Billy Yip and I am currently located in the San
-          Francisco Bay Area. An associate developer that is driven by goal of
-          adding value to companies that are willing to invest in me. Creative
-          problem solver and professional customer service in both service and
-          technology field.
+          Francisco Bay Area. I am a associate developer that is driven by goal
+          of adding value to companies that are willing to invest in me.
+          Creative problem solver and professional customer service in both
+          service and technology field.
         </motion.h3>
       </div>
     </motion.div>
