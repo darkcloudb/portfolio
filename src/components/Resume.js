@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import resume from "../img/Resume_v1.3.png";
+import resume from "../img/Resume_v1.4.png";
 
 const contentAppear = {
   in: {
