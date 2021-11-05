@@ -36,7 +36,7 @@ export const projectArray = [
   {
     image: djangogram,
     title: "DjangoGram",
-    text: "A basic Instagram clone created with Python, Django, CSS, and Heroku.",
+    text: "A basic Instagram clone created with Python, Django, CSS, and Heroku. Created the Sign Up, Log In, Post Image, Delete Image, Comment, Delete Comment, Like, Unlike, and designed frontend interface.",
     button: "See Live",
     click: CoachIn,
   },
