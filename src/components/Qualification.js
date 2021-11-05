@@ -1,5 +1,6 @@
 import React from "react";
 import Cert from "../img/Certification_Frontend.jpg";
+import Cert2 from "../img/full_stack_cert.png";
 import { motion } from "framer-motion";
 
 const contentAppear = {
@@ -21,7 +22,7 @@ function Qualifications() {
   return (
     <div className="qualification">
       <motion.img
-        src={Cert}
+        src={Cert2}
         alt="Certificate"
         className="cert"
         initial="out"
