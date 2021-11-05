@@ -1,5 +1,5 @@
 import kapstone from "../img/secondChapter.png";
-import kwitter from "../img/kwitter.png";
+import djangogram from "../img/djangogram.png";
 import codepen from "../img/codepen.png";
 import bot from "../img/discordBot.png";
 import hanoi from "../img/tower.png";
@@ -34,9 +34,9 @@ export const projectArray = [
     click: secondChapter,
   },
   {
-    image: kwitter,
-    title: "CoachIn",
-    text: "A social media site with working message board and Google Login. Created using JavaScript, React, Zustand, and Bootstrap.",
+    image: djangogram,
+    title: "DjangoGram",
+    text: "A basic Instagram clone created with Python, Django, CSS, and Heroku.",
     button: "See Live",
     click: CoachIn,
   },
