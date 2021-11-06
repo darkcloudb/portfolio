@@ -7,8 +7,8 @@ import hanoi from "../img/tower.png";
 function secondChapter() {
   window.open("https://efgon.github.io/kapstone-frontend-book-resale/");
 }
-function CoachIn() {
-  window.open("https://kenzie-se-q2.github.io/kwitter-medimond/");
+function djangoGram() {
+  window.open("https://limitless-cliffs-34806.herokuapp.com/");
 }
 
 function whatToEat() {
@@ -38,7 +38,7 @@ export const projectArray = [
     title: "DjangoGram",
     text: "A basic Instagram clone created with Python, Django, CSS, and Heroku. Created the Sign Up, Log In, Post Image, Delete Image, Comment, Delete Comment, Like, Unlike, and designed frontend interface.",
     button: "See Live",
-    click: CoachIn,
+    click: djangoGram,
   },
   {
     image: codepen,
