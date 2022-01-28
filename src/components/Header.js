@@ -59,7 +59,10 @@ function Header() {
           Francisco Bay Area. I am a associate developer that is driven by goal
           of adding value to companies that are willing to invest in me.
           Creative problem solver and professional customer service in both
-          service and technology field.
+          service and technology field. Current work in progress:
+          <a href="https://darkcloudb.github.io/sentimental-site/">
+            personal project.
+          </a>
         </motion.h3>
       </div>
     </motion.div>
