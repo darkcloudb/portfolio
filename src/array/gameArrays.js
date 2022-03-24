@@ -24,4 +24,13 @@ export const gameArrays = [
     win: <FontAwesomeIcon icon={faWindows} />,
     clickWin: DemoProjectPC,
   },
+  // {
+  //   image: vndemo,
+  //   title: "Sentimental Love",
+  //   text: "Visual Novel created using Ren'Py and Python. Currently a work in progress.",
+  //   mac: <FontAwesomeIcon icon={faApple} />,
+  //   clickMac: sentiSite,
+  //   win: <FontAwesomeIcon icon={faWindows} />,
+  //   clickWin: sentiSite,
+  // },
 ];

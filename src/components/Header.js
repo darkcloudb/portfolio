@@ -55,14 +55,10 @@ function Header() {
           variants={contentAppear}
           transition={effect}
         >
-          Hi, my name is Billy Yip and I am currently located in the San
-          Francisco Bay Area. I am a associate developer that is driven by goal
-          of adding value to companies that are willing to invest in me.
-          Creative problem solver and professional customer service in both
-          service and technology field. Current work in progress:
-          <a href="https://darkcloudb.github.io/sentimental-site/">
-            personal project.
-          </a>
+          Hi, my name is Billy Yip and I am currently residing in the San
+          Francisco Bay Area. I am a associate developer that is driven by my
+          desire to learn and innovate. Creative problem solver and professional
+          customer service in both service and technology field.
         </motion.h3>
       </div>
     </motion.div>
